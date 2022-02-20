@@ -28,10 +28,10 @@ html, body {
 	justify-content: space-between;
 	position: fixed;
 
-	width: 96%;
+	width: 99%;
 	height: 10%;
 
-	padding: 2%;
+	padding: 0.5%;
 	padding-bottom: 0px;
 	margin: 0px;
 
@@ -42,8 +42,8 @@ html, body {
 
 #header img {
 	flex: 1;
-	height: auto;
-
+	height: 100%;
+	width: auto;
 	padding:  0px;
 	padding-bottom: 5px;
 }
