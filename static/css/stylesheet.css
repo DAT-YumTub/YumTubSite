@@ -11,7 +11,7 @@ html, body {
 
 /* Colors */
 .bgc_main {
-	background-color: #235789;
+	background-color: #404040;
 }
 
 .text-main {
@@ -19,7 +19,7 @@ html, body {
 }
 
 .text-clemson {
-	color: #F56600;
+	color: #7F0000;
 }
 
 
@@ -35,15 +35,17 @@ html, body {
 	padding-bottom: 0px;
 	margin: 0px;
 
-	box-shadow: 0px 10px 10px rgba(50, 50, 50, 0.5);
+	box-shadow: 0px 20px 20px rgba(50, 50, 50, 50);
 	outline: 2px solid white;
 
 }
 
 #header img {
 	flex: 1;
-	max-height: 100%;
-	width: auto;
+	height: auto;
+
+	padding:  0px;
+	padding-bottom: 5px;
 }
 
 #nav {
@@ -69,7 +71,7 @@ html, body {
 
 	transition: all 1s ease-out;
 
-	border: 3px solid #235789;
+	border-right: 3px solid #404040;
 }
 
 #nav a {
@@ -78,7 +80,7 @@ html, body {
 }
 
 #nav p:hover {
-	color: #F56600;
+	color: #7F0000;
 
 	border-right: 3px solid white;
 
@@ -87,4 +89,9 @@ html, body {
 
 #body {
 	padding-top:  10%;
+}
+
+strong {
+	color:  #7F0000;
+	font-size: 30px;
 }

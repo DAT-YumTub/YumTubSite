@@ -8,26 +8,29 @@
 .body_cell {
 	margin: 2%;
 	padding: 0px;
-	background-color:  white;
+	background-color:  #404040;
+	color: white;
 
 	border-radius: 10px;
-	border: 5px solid #235789;
+	border: 5px solid white;
 
-	box-shadow: 0 10px 15px rgba(80, 80, 80, 30);
+	box-shadow: 0 10px 15px rgba(50, 50, 50, 30);
 
 	transition: all 1s;
 }
 
 .body_cell:hover {
-	box-shadow: 0 20px 30px rgba(80, 80, 80, 30);
+	box-shadow: 0 20px 30px rgba(50, 50, 50, 30);
 }
 
 .bc_title {
 	font-size: 35px;
 
 	text-align: center;
-	color: #F56600;
+	color: #9F0000;
 	font-weight: bold;
+
+	border-bottom: 3px solid white;
 }
 
 .bc_body {
